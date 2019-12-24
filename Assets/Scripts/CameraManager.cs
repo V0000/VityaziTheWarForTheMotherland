@@ -35,7 +35,7 @@ public class CameraManager : MonoBehaviour
                     Vector3 touchZeroPrevPos3 = touchZero.deltaPosition;
                     camera.transform.position -= touchZeroPrevPos3 * moveSpeed;
                     Debug.Log(touchZeroPrevPos3);
-                    //////////////////////////////////////////////////////////////////
+                    
                 }
             }
         
